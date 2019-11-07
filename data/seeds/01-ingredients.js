@@ -8,6 +8,6 @@ exports.seed = function(knex) {
         { ingredient_name: "Walnuts" },
         { ingredient_name: "Tomatoes" },
         { ingredient_name: "Olive Oil" },
-        { ingredient_name: "Cheese" },
+        { ingredient_name: "Cheese" }
       ]);
 };

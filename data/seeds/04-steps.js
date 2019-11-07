@@ -1,6 +1,6 @@
 
 exports.seed = function(knex, Promise) {
-      return knex('table_name').insert([
+      return knex('steps').insert([
         {
           step_number: 1,
           instruction: "Cook thoroughly",

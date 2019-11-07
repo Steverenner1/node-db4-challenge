@@ -1,7 +1,7 @@
 
 exports.seed = function(knex) {
   // Deletes ALL existing entries
-      return knex('table_name').insert([
+      return knex('recipes').insert([
         { recipe_name: "Beef Stroganoff" },
         { recipe_name: "Beef Wellington" },
         { recipe_name: "Caesar Salad" },
